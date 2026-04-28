@@ -166,6 +166,13 @@ footer {
   transform: scale(1.2);
 }
 
+.hero-img {
+  height: 500px;
+  object-fit: cover;
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
   .hero {
